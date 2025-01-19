@@ -12,4 +12,5 @@
 - Typescript или Javascript?
 - Html
 - CSS
+- React
 - что-то ещё?
