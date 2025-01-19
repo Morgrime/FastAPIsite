@@ -1,0 +1,2 @@
+# FastAPIsite
+Стек:
