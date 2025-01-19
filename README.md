@@ -8,7 +8,7 @@
 - Redis?
 - Kafka или RabbitMQ?
 
-# Фронтэнд
+## Фронтэнд
 - Typescript или Javascript?
 - Html
 - CSS
