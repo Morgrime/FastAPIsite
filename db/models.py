@@ -15,4 +15,12 @@ class UserBase(Base):
     login: Mapped[str] = mapped_column(String(40))
     password: Mapped[str] = mapped_column(String(40)) # изменить на хэшированный пароль
 
-    
+
+class IdeaBase(Base):
+    __tablename__ = 'ideas'
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    idea: Mapped[str] = mapped_column(String(200))) # не больше 200 символов
+    description: Mapped[str] = mapped_column(String(400)) # не больше 400 символов
+    # likes dislikes?
+
